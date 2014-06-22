@@ -12,6 +12,7 @@ subject_trainData <- read.table("./UCI HAR Dataset/train/subject_train.txt")
 activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt")
 features <- read.table("./UCI HAR Dataset/features.txt")
 
+
 # Assign names to the data index columns
 colnames(activity_labels) <- c("activity_index", "activity")
 colnames(features) <- c("feature_index", "feature")
