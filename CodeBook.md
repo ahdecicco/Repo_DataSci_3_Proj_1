@@ -65,7 +65,7 @@ The tidy data set generated with 'run_analysis.R' includes 79 of the original 56
 
 <h4>Features Legend</h4>
 The feature name describes what each one measures. The following details describe elements of prefixes and suffixes used that describe the metric.
-<d1>
+
 	- t 
 	 	<dd>time domain</dd>
 	- f 
@@ -98,7 +98,7 @@ The feature name describes what each one measures. The following details describ
 		<dd>Class labels of the activity subjects engaged in.</dd>
 	- subjectID
 		<dd>Unique subject identifier with values of 1-30.</dd>
-</dl>
+
 
 <h4>Features List</h4>
 The following are the features included in the tidy data set.
