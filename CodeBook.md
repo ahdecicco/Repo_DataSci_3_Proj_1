@@ -66,37 +66,35 @@ The tidy data set generated with 'run_analysis.R' includes 79 of the original 56
 <h4>Features Legend</h4>
 The feature name describes what each one measures. The following details describe elements of prefixes and suffixes used that describe the metric.
 <d1>
- <dt>t</dt>
-  <dd>time domain</dd>
-	<dt>f</dt>
-	 <dd>Frequency domain.</dd>
-	<dt>mean</dt>
+- t <dd>time domain</dd>
+- f <dd>Frequency domain.</dd>
+	- mean
 		<dd>Average for the preceding descriptors in the names.</dd>
-	<dt>std</dt>
+	- std
 		<dd>standard deviation for the preceding descriptors in the names.</dd>
-	<dt>X, Y, or Z</dt>
+	- X, Y, or Z
 		<dd>Denotes 3-axial signals in the X, Y and Z directions.</dd>
-	<dt>BodyAcc</dt>
+	- BodyAcc
 		<dd>Measures acceleration signal for the body.</dd>
-	<dt>GravityAcc</dt>
+	- GravityAcc
 		<dd>Measures acceleration signals for gravity.</dd>
-	<dt>BodyAccJerk</dt>
+	- BodyAccJerk
 		<dd>Body linear acceleration jerk signals.</dd>
-	<dt>BodyGyroJerk</dt>
+	- BodyGyroJerk
 		<dd>Angular velocity jerk signals.</dd>
-	<dt>BodyAccMag</dt>
+	- BodyAccMag
 		<dd>Magnitude of body acceleration signals.</dd>
-	<dt>GravityAccMag</dt>
+	- GravityAccMag
 		<dd>Magnitude of angular velocity signals.</dd>
-	<dt>BodyAccJerkMag</dt>
+	- BodyAccJerkMag
 		<dd>Magnitude of body acceleration jerk signals.</dd>
-	<dt>BodyGyroMag</dt>
+	- BodyGyroMag
 		<dd>Magnitude of body angular velocity signals.</dd>
-	<dt>BodyGyroJerkMag</dt>
+	- BodyGyroJerkMag
 		<dd>Magnitude of angular velocity jerk signals.</dd>
-	<dt>activity</dt>
+	- activity
 		<dd>Class labels of the activity subjects engaged in.</dd>
-	<dt>subjectID<dt>
+	- subjectID
 		<dd>Unique subject identifier with values of 1-30.</dd>
 </dl>
 
