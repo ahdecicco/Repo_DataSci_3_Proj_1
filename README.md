@@ -2,6 +2,7 @@ Repo_DataSci_3_Proj_1
 =====================
 
 Getting and Cleaning Data Course; repo for project 1.
+https://github.com/BHORIO/Repo_DataSci_3_Proj_1/
 
 The run_analysis.R script first loads the data from the UCI HAR Dataset, and assumes the file structure is unchanged after unzipping the dataset into the working directory.
 
