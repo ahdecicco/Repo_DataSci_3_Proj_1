@@ -63,7 +63,46 @@ For more information about this dataset contact: activityrecognition@smartlab.ws
 <h3>Tidy Data Set</h3>
 The tidy data set generated with 'run_analysis.R' includes 79 of the original 561 features. It has been filtered to only to features that had 'mean()' or 'std()' in their title. The script for run_analysis.R produces 181 observations where each row represents observations for each combination of 'subjectID', 'activity' and 'variables'.
 
+<h4>Features Legend</h4>
+The feature name describes what each one measures. The following details describe elements of prefixes and suffixes used that describe the metric.
+<d1>
+ <dt>t</dt>
+  <dd>time domain</dd>
+	<dt>f</dt>
+	 <dd>Frequency domain.</dd>
+	<dt>mean</dt>
+		<dd>Average for the preceding descriptors in the names.</dd>
+	<dt>std</dt>
+		<dd>standard deviation for the preceding descriptors in the names.</dd>
+	<dt>X, Y, or Z</dt>
+		<dd>Denotes 3-axial signals in the X, Y and Z directions.</dd>
+	<dt>BodyAcc</dt>
+		<dd>Measures acceleration signal for the body.</dd>
+	<dt>GravityAcc</dt>
+		<dd>Measures acceleration signals for gravity.</dd>
+	<dt>BodyAccJerk</dt>
+		<dd>Body linear acceleration jerk signals.</dd>
+	<dt>BodyGyroJerk</dt>
+		<dd>Angular velocity jerk signals.</dd>
+	<dt>BodyAccMag</dt>
+		<dd>Magnitude of body acceleration signals.</dd>
+	<dt>GravityAccMag</dt>
+		<dd>Magnitude of angular velocity signals.</dd>
+	<dt>BodyAccJerkMag</dt>
+		<dd>Magnitude of body acceleration jerk signals.</dd>
+	<dt>BodyGyroMag</dt>
+		<dd>Magnitude of body angular velocity signals.</dd>
+	<dt>BodyGyroJerkMag</dt>
+		<dd>Magnitude of angular velocity jerk signals.</dd>
+	<dt>activity</dt>
+		<dd>Class labels of the activity subjects engaged in.</dd>
+	<dt>subjectID<dt>
+		<dd>Unique subject identifier with values of 1-30.</dd>
+</dl>
+
 <h4>Features List</h4>
+The following are the features included in the tidy data set.
+
 - subject
 - activity
 - tBodyAcc-mean()-X
