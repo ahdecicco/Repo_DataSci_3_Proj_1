@@ -67,37 +67,37 @@ The tidy data set generated with 'run_analysis.R' includes 79 of the original 56
 The feature name describes what each one measures. The following details describe elements of prefixes and suffixes used that describe the metric.
 
 	- t 
-	 	<dd>time domain</dd>
+	 	time domain
 	- f 
-	 	<dd>Frequency domain.</dd>
+	 	Frequency domain.
 	- mean
-		<dd>Average for the preceding descriptors in the names.</dd>
+		Average for the preceding descriptors in the names.
 	- std
-		<dd>standard deviation for the preceding descriptors in the names.</dd>
+		standard deviation for the preceding descriptors in the names.
 	- X, Y, or Z
-		<dd>Denotes 3-axial signals in the X, Y and Z directions.</dd>
+		Denotes 3-axial signals in the X, Y and Z directions.
 	- BodyAcc
-		<dd>Measures acceleration signal for the body.</dd>
+		Measures acceleration signal for the body.
 	- GravityAcc
-		<dd>Measures acceleration signals for gravity.</dd>
+		Measures acceleration signals for gravity.
 	- BodyAccJerk
-		<dd>Body linear acceleration jerk signals.</dd>
+		Body linear acceleration jerk signals.
 	- BodyGyroJerk
-		<dd>Angular velocity jerk signals.</dd>
+		Angular velocity jerk signals.
 	- BodyAccMag
-		<dd>Magnitude of body acceleration signals.</dd>
+		Magnitude of body acceleration signals.
 	- GravityAccMag
-		<dd>Magnitude of angular velocity signals.</dd>
+		Magnitude of angular velocity signals.
 	- BodyAccJerkMag
-		<dd>Magnitude of body acceleration jerk signals.</dd>
+		Magnitude of body acceleration jerk signals.
 	- BodyGyroMag
-		<dd>Magnitude of body angular velocity signals.</dd>
+		Magnitude of body angular velocity signals.
 	- BodyGyroJerkMag
-		<dd>Magnitude of angular velocity jerk signals.</dd>
+		Magnitude of angular velocity jerk signals.
 	- activity
-		<dd>Class labels of the activity subjects engaged in.</dd>
+		Class labels of the activity subjects engaged in.
 	- subjectID
-		<dd>Unique subject identifier with values of 1-30.</dd>
+		Unique subject identifier with values of 1-30.
 
 
 <h4>Features List</h4>
