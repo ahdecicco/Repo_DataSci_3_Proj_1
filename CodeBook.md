@@ -66,8 +66,10 @@ The tidy data set generated with 'run_analysis.R' includes 79 of the original 56
 <h4>Features Legend</h4>
 The feature name describes what each one measures. The following details describe elements of prefixes and suffixes used that describe the metric.
 <d1>
-- t <dd>time domain</dd>
-- f <dd>Frequency domain.</dd>
+	- t 
+	 	<dd>time domain</dd>
+	- f 
+	 	<dd>Frequency domain.</dd>
 	- mean
 		<dd>Average for the preceding descriptors in the names.</dd>
 	- std
